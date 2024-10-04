@@ -1,7 +1,4 @@
-// components/CanvasBackground.js
-
 "use client";
-// components/CanvasBackground.js
 import { useEffect, useRef } from "react";
 
 const CanvasBackground = () => {

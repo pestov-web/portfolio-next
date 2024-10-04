@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <h1>Мое Портфолио</h1>
+      <section className="hero">Hero</section>
     </div>
   );
 }
