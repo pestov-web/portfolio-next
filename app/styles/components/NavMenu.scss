@@ -1,0 +1,14 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    background-color: turquoise;
+    height: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    gap: 10px;
+  }
+}
