@@ -28,9 +28,9 @@ const navList = [
 const users = [
   {
     id: "16ad06bf-8632-47ea-9dc2-37ad9f338270",
-    name: "mwk",
-    email: "pestov.web@yandex.ru",
-    password: "mwk6661!",
+    name: process.env.ADMIN_USERNAME,
+    email: process.env.ADMIN_EMAIL,
+    password: process.env.ADMIN_PASSWORD,
     role: "admin",
   },
   {
