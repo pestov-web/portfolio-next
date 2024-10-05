@@ -1,15 +1,15 @@
 import { navList } from "@/app/lib/placeholder-data";
-
+import { Icon } from "@iconify/react";
+import Link from "next/link";
 function NavMenu() {
   return (
     <nav className="nav">
       <ul className="list nav__list">
         {navList.map((item) => (
           <li key={item.id} className="nav__item">
-            <a href={item.href} className="nav__link">
-              {/* <span className="nav__icon">{item.icon}</span> */}
-              <span className="nav__text">{item.name}</span>
-            </a>
+            <Link className="nav__link" href={item.href}>
+              <Icon className="nav__link-icon" icon={item.icon} />
+            </Link>
           </li>
         ))}
       </ul>

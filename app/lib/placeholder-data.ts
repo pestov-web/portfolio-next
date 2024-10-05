@@ -3,25 +3,25 @@ const navList = [
     id: "1",
     name: "Home",
     href: "/",
-    icon: "HomeIcon",
+    icon: "solar:home-smile-linear",
   },
   {
     id: "2",
     name: "Projects",
     href: "/projects",
-    icon: "CodeIcon",
+    icon: "solar:suitcase-tag-linear",
   },
   {
     id: "3",
     name: "Blog",
     href: "/blog",
-    icon: "BookOpenIcon",
+    icon: "solar:library-linear",
   },
   {
     id: "4",
     name: "Contact",
     href: "/contact",
-    icon: "MailIcon",
+    icon: "solar:mailbox-linear",
   },
 ];
 
