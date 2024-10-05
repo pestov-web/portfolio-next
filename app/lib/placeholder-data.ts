@@ -13,8 +13,8 @@ const navList = [
   },
   {
     id: "3",
-    name: "Blog",
-    href: "/blog",
+    name: "Library",
+    href: "/library",
     icon: "solar:library-linear",
   },
   {
