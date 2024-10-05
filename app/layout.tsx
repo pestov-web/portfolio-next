@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./styles/main.scss";
-import CanvasBackground from "./components/CanvasBackground";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import CanvasBackground from "./ui/components/CanvasBackground";
+import Header from "./ui/components/Header";
+import Footer from "./ui/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
